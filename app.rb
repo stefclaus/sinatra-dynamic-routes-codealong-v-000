@@ -24,7 +24,7 @@ class App < Sinatra::Base
 
   get "/goodbye/:multiply" do
     @product = params[:product]
-    "#{@product}!"
+    "#{@product}"
   end
 
 end
