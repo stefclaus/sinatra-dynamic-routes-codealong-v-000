@@ -24,9 +24,6 @@ class App < Sinatra::Base
 
   get "/multiply/:int1/:int2" do
     "#{params[:int1].to_i + params[:int2].to_i}"
-
-    @product = params[:newnum]
-    "#{@product}"
   end
 
 end
